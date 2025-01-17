@@ -39,7 +39,7 @@ Insertion Sort is another simple sorting algorithm that builds the final sorted 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Bubble-Sort-and-Insert-Sort.git
+   git clone https://github.com/guanshiyin28/Bubble-Sort-and-Insert-Sort.git
    ```
 2. Navigate to the project directory:
    ```bash

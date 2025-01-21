@@ -25,6 +25,48 @@ Insertion Sort is another simple sorting algorithm that builds the final sorted 
 
 <hr><br>
 
+## Demo
+
+Here is a quick demo of the sorting algorithms in action:
+
+### Bubble Sort Example
+
+```python
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
+
+# Example usage
+arr = [64, 34, 25, 12, 22, 11, 90]
+sorted_arr = bubble_sort(arr)
+print("Sorted array is:", sorted_arr)
+```
+
+### Insertion Sort Example
+
+```python
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        key = arr[i]
+        j = i-1
+        while j >= 0 and key < arr[j]:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
+    return arr
+
+# Example usage
+arr = [12, 11, 13, 5, 6]
+sorted_arr = insertion_sort(arr)
+print("Sorted array is:", sorted_arr)
+```
+
+<hr><br>
+
 ## Features
 
 - Easy-to-understand implementations of Bubble Sort and Insertion Sort
@@ -35,7 +77,7 @@ Insertion Sort is another simple sorting algorithm that builds the final sorted 
 
 - Python
 
-## Steps to Run
+## Project Setup
 
 1. Clone the repository:
    ```bash
@@ -45,7 +87,11 @@ Insertion Sort is another simple sorting algorithm that builds the final sorted 
    ```bash
    cd Bubble-Sort-and-Insert-Sort
    ```
-3. Run the Python scripts:
+
+## Steps to Run
+
+1. Ensure you have Python installed on your system.
+2. Run the Python scripts:
    ```bash
    python program.py
    ```

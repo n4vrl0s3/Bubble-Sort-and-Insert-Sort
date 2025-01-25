@@ -64,9 +64,13 @@ print("Sorted array is:", sorted_arr)
 - Well-commented code for better understanding
 - Suitable for beginners and intermediate programmers
 
+<hr><br>
+
 ## Technologies Used
 
 - Python
+
+<hr><br>
 
 ## Project Setup
 
@@ -79,6 +83,8 @@ print("Sorted array is:", sorted_arr)
    cd Bubble-Sort-and-Insert-Sort
    ```
 
+<hr><br>
+
 ## Steps to Run
 
 1. Ensure you have Python installed on your system.
@@ -86,6 +92,8 @@ print("Sorted array is:", sorted_arr)
    ```bash
    python program.py
    ```
+
+<hr><br>
 
 ## License
 

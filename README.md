@@ -97,7 +97,7 @@ print("Sorted array is:", sorted_arr)
 
 ## License
 
-This project is licensed under the GNU General Public v3.0 License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 <hr><br>
 
